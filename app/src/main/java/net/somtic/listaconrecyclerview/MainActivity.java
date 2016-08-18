@@ -10,11 +10,14 @@ import android.widget.TextView;
 
 public class MainActivity extends RecyclerViewActivity {
 
+
+
     private static final String[] items = {"En", "un", "lugar", "de",
             "la", "Mancha", "de", "cuyo", "nombre", "no", "quiero",
             "acordarme", "no", "ha", "mucho", "tiempo", "que", "vivía",
             "un", "hidalgo", "de", "los", "de", "lanza", "en", "astillero",
             "adarga", "antigua", "rocín", "flaco", "y", "galgo", "corredor"};
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,7 +44,7 @@ public class MainActivity extends RecyclerViewActivity {
         }
     }
 
-    static class FilaHolder extends RecyclerView.ViewHolder {
+    /*static class FilaHolder extends RecyclerView.ViewHolder {
         TextView etiqueta = null;
         TextView tamanyo = null;
         ImageView icono = null;
@@ -68,6 +71,6 @@ public class MainActivity extends RecyclerViewActivity {
                 icono.setImageResource(android.R.drawable.btn_star_big_on);
             }
         }
-    }
+    }*/
 
 }
